@@ -1,0 +1,42 @@
+{
+  "name": "fibpayout",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Official Node.js SDK for the First Iraqi Bank (FIB) Online Payout Service",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": [
+    "fib",
+    "first-iraqi-bank",
+    "payout",
+    "transfer",
+    "iraq",
+    "iqd",
+    "sdk"
+  ],
+  "author": "Rageofkurd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rageofkurd/FibPayout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rageofkurd/FibPayout/issues"
+  },
+  "homepage": "https://github.com/Rageofkurd/FibPayout#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node examples/basic.js"
+  },
+  "dependencies": {}
+}
