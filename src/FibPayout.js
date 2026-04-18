@@ -10,9 +10,9 @@ export class FibPayout {
   /**
    * Create a new FibPayout SDK instance.
    * @param {object} config
-   * @param {string} config.clientId                          - Your FIB client_id
-   * @param {string} config.clientSecret                      - Your FIB client_secret
-   * @param {'stage'|'production'} [config.environment='stage'] - Target environment
+   * @param {string} config.clientId                        
+   * @param {string} config.clientSecret                      
+   * @param {'stage'|'production'} [config.environment='stage'] 
    */
   constructor({ clientId, clientSecret, environment = 'stage' } = {}) {
     if (!clientId || !clientSecret) {
