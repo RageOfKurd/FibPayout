@@ -90,7 +90,7 @@ const fib = new FibPayout({
 
 | Environment       | Base URL                    |
 |-------------------|-----------------------------|
-| Stage (Test Mode) | https://fib.stage.fib.iq    |
+| Stage (Test Mode) | https://fib-stage.fib.iq    |
 | Production (Live) | https://fib.prod.fib.iq     |
 
 > 💡 Always store credentials in environment variables.
